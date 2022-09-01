@@ -1,0 +1,229 @@
+/* INICIO */
+header img{
+	max-width: 10%;
+	max-height: 10%;
+}
+.paddingDesbor{
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+}
+.encabezado1, .encabezado2{
+	font-style: Normal;
+	font-family: Arial, Times New Roman, sans-serif;
+	font-weight: bold;/*especifica el peso o grueso de la letra*/
+	font-size: 1.5rem;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;/*convierte letras en mayusculas*/
+	background-color: DimGray;
+	margin-bottom: 30px;
+	box-shadow: 0px 0px 10px 0px white inset;/*sombra interior a la caja utilizando la palabra clave inset*/
+}
+.encabezado2{
+	margin-top: 30px;
+}
+.itemMasVendidos, .itemLanzamientos{
+	display: flex; 
+	flex-direction: row; 
+	flex-wrap: wrap; 
+	justify-content: space-evenly;
+	text-align: center;
+}
+.card-body, .card-title{
+	width: 100%;	
+	text-align: center;	
+	font-style: Normal;
+	font-family: Arial, Times New Roman, sans-serif;
+	font-size: 0.7rem;
+	color: DimGray;
+}
+.promocionesBancarias img{
+	width: 100%; 
+	margin-top: 30px;
+}
+.promocionesBancarias{
+    padding-right: 0px;
+}
+.pieNosotros, .pieInformacion, .pieCentroDeAtencion{
+	list-style: none;
+	color: white;
+    text-decoration: none;
+}
+.derechosReservados{
+	color: white;
+	text-align: center;
+}
+/* TERMINA INICIO */
+/* INICIA VISTA MOBILE INICIO */
+@media only screen and (max-width: 768px){
+.cardProducto3, .cardProducto4, .cardProducto7, .cardProducto8{display: none;}
+footer li{
+	display: none;
+}
+.derechosReservados{
+	text-align: left; 
+	padding-left: 35px; 
+	font-weight: bold;}
+}
+.rrss{
+	padding-left: 45px; 
+}
+/* TERMINA VISTA MOBILE INICIO */
+/* NOSOTROS */
+.Nosotros p{
+	margin: 20px 30px 30px 30px;	
+	width: 75%;
+	text-align: justify;	
+	font-style: Normal;
+	font-family: Arial, Times New Roman, sans-serif;
+	font-size: 1rem;
+	color: DimGray;
+}
+.valores{
+	margin: 20px 30px 0px 30px;
+	width: 70%;	
+	text-align: justify;	
+	font-style: Normal;
+	font-family: Arial, Times New Roman, sans-serif;
+	font-size: 1rem;
+	color: DimGray;
+}
+/* TERMINA NOSOTROS */
+/* CONTACTO */
+.formaConsulta{	
+	margin-left: 30px;
+	margin-bottom: 20px;
+	font-style: Normal;
+	font-family: Arial, Times New Roman, sans-serif;
+	font-weight: bold;
+	font-size: 1rem;
+    text-transform: uppercase;/*convierte letras en mayusculas*/
+	color: DimGray;
+    width: 75%;
+}
+.datosContacto div{	
+	margin-left: 30px;
+	font-style: Normal;
+	font-family: Arial, Times New Roman, sans-serif;	
+	font-size: 1.5rem;
+	color: DimGray;
+    padding-bottom: 10px;
+}
+.pViaMail{	
+	font-style: Normal;
+	font-family: Arial, Times New Roman, sans-serif;	
+	font-size: 1.5rem;
+	color: DimGray;
+}
+.datosContacto input, select{	
+	font-style: Normal;
+	font-family: Arial, Times New Roman, sans-serif;
+	font-size: 0.6rem;
+	color: DimGray;
+	border: 1px solid DimGray;
+    padding-bottom: 4px;
+   	padding-top: 4px;
+    border-radius: 3px;/*curva las esquina de la caja seleccion*/
+    width: 20%;
+}
+.datosContacto label{
+	margin-left: 30px;	
+	font-style: Normal;
+	font-family: Arial, Times New Roman, sans-serif;
+	font-size: 1rem;
+	color: DimGray;
+}
+.datosContacto textarea, button{
+	margin-left: 30px;
+	margin-bottom: 30px;
+}
+input:focus{
+	font-size: 1rem;
+}
+/* TERMINA CONTACTO */
+/* SUCURSALES */
+.ubicacionSucursal{
+	display: flex; 
+	flex-direction: row; 
+	flex-wrap: wrap; 
+	justify-content: space-evenly; 
+	text-align: center; 
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.zonaSucursal, .direcSucursal, .HorarioSucursal{
+	margin: 5px;
+	font-style: Normal;
+	font-family: Arial, Times New Roman, sans-serif;
+	font-size: 1rem;
+	color: DimGray;
+	text-align: center
+}
+/* TERMINA SUCURSALES */
+/* INICIA VISTA MOBILE SUCURSALES */
+@media only screen and (max-width: 768px){
+.abastoSucursal{
+	padding-bottom: 30px;
+}
+}
+/* TERMINA VISTA MOBILE SUCURSALES */
+/* PRODUCTOS */
+.opcionesProducto{
+	display: flex; 
+	flex-direction: column; 
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	width: 25%;
+}
+.cardsProductos{
+	display: flex; 
+	flex-direction: row; 
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: space-around;
+	padding-bottom: 50px;
+	width: 75%;
+}
+.cajaseleccione{
+	margin: 0px 30px 10px 60px;
+	font-style: Normal;
+	font-family: Arial, Times New Roman, sans-serif;
+	font-size: 1rem;
+	color: DimGray;
+	border: 1px solid DimGray;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    border-radius: 3px;/*curva las esquina de la caja seleccion*/
+    width: 10%;
+}
+.especificacionesProducto{
+	font-style: Normal;
+	font-family: Arial, Times New Roman, sans-serif;
+	font-weight: bold;
+	font-size: 1rem;
+	color: DimGray;
+	margin: 10px 40px 10px 30px;
+}
+.opcionlista li{
+	list-style-type: none;
+	font-style: Normal;
+	font-family: Arial, Times New Roman, sans-serif;
+	font-size: 0.8rem;
+	color: DimGray;
+	margin: 0px 10px 0px 30px;
+}
+/* TERMINA PRODUCTOS */
+/* INICIA VISTA MOBILE PRODUCTOS */
+@media only screen and (max-width: 768px){
+.opcionesProducto{display: none;}
+.cardsProductos{
+	width: 100%;
+}
+.cajaseleccione{
+    width: 15%;
+}
+}
+/* TERMINA VISTA MOBILE PRODUCTOS */
